@@ -21,6 +21,15 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
   - Developed and optimized payroll management software that reduced payroll processing time by nearly 40% for a 500-employee organization.  
   - Built RESTful APIs with Spring Boot to integrate payroll operations with HR platforms, streamlining administrative tasks.  
   - Conducted collaborative code reviews and testing sessions, contributing to a 30% reduction in post-deployment issues.
+ 
+ ## 🎓 Education
+
+- **Florida State University, Tallahassee, FL** — *Master of Science in Computer Science*  
+  Aug 2024 – May 2026 | CGPA: 4.0/4.0
+
+- **Vellore Institute of Technology, Andhra Pradesh** — *Bachelor of Technology in Computer Science and Engineering (Data Analytics)*  
+  Aug 2020 – May 2024 | CGPA: 9.38/10.0
+  
 
 ## 🛠️ Skills & Tools
 
@@ -43,3 +52,6 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
 - **AWS Services**: EC2, S3, Lambda, IAM, CloudWatch, CloudFormation, RDS
 
 - **IDEs & Tools**: Visual Studio, Eclipse, PyCharm, Jupyter Notebook, R Studio, Power BI
+
+
+
