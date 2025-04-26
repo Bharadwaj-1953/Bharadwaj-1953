@@ -32,7 +32,7 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
 
 - **Databases**: MySQL, PostgreSQL, Oracle, MongoDB
 
-- **Machine Learning & Data Science**: TensorFlow, Keras, Pandas, NumPy, MATLAB, XGBoost, Random Forest, SVM, K-NN, ANN, Naïve Bayes
+- **Machine Learning & Data Science**: TensorFlow, Keras, Pandas, NumPy, MATLAB, XGBoost, Random Forest, SVM, K-NN, Naïve Bayes
 
 - **Deep Learning & Image Processing**: Convolutional Neural Networks (CNNs), OpenCV, Dilated Convolutions
 
