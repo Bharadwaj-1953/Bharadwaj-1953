@@ -1,6 +1,6 @@
 # Hi, I'm Bharadwaj Manne! 👋
 
-I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong foundation in Data Science and Cloud-Native Architectures. With hands-on experience designing scalable systems on AWS and GCP, I enjoy building intelligent, data-driven applications that solve real-world problems. From engineering cloud-based OTT platforms and healthcare integration solutions to developing predictive models in agriculture and healthcare, I continuously explore the intersection of cloud computing, machine learning, and distributed systems.
+I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong foundation in Data Science, Machine Learning, and Cloud-Native Architectures. With hands-on experience designing scalable, resilient systems on AWS and GCP, I enjoy building intelligent, data-driven applications that solve real-world problems. From developing cloud-based OTT platforms and healthcare integration solutions to engineering predictive models in agriculture and healthcare, I continuously explore the intersection of software engineering, cloud computing, and artificial intelligence.
 
 ## 💼 Professional Experience
 
