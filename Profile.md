@@ -67,3 +67,14 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
   - Proposed a Dilated Time-Frequency Attention Autoencoder (DTFAAEC) model that enhanced real-time speech intelligibility and quality by up to 30% (based on PESQ and STOI evaluation).  
   - Integrated dilated convolutions, sub-pixel convolutions, and TFA modules, improving multi-resolution feature extraction and temporal modeling over baseline CNN architectures.  
   - Achieved a relative PESQ improvement of +0.4 points and STOI improvement of +5.2% on standard speech enhancement datasets.
+
+## 🏆 Certifications & Skill Endorsements
+
+- **Google Cloud Platform (GCP) Certified**: Associate Cloud Engineer
+- **Amazon Web Services (AWS) Certified**: AWS Academy Cloud Foundations
+- **Microsoft Azure Certified**: Azure Data Fundamentals (DP-900), Azure AI Fundamentals (AI-900), Power Platform Fundamentals (PL-900), Azure Fundamentals (AZ-900)
+- **Salesforce Certified**: AI Specialist, AI Associate
+- **Cisco Certified**: Introduction to IoT, Introduction to Cybersecurity
+- **VIT Certified**: Advanced Data Analytics, Data Science and Advanced Analytics
+- **HackerRank**: Golden Badge in Java Programming
+- **MATLAB Certified**: MATLAB Onramp, Optimization Onramp
