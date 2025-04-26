@@ -54,4 +54,16 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
 - **IDEs & Tools**: Visual Studio, Eclipse, PyCharm, Jupyter Notebook, R Studio, Power BI
 
 
+## 📝 Patents & Publications
 
+- **Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques**  
+  *Publisher: IPO India | Application Number: 202321049964*  
+  - Developed a machine learning-based anomaly detection system for real-time structural health monitoring of civil infrastructure.  
+  - Engineered a semantic computer vision framework that improved anomaly detection accuracy by approximately 20% compared to conventional image classification models.  
+  - Designed animated visualization techniques for intuitive anomaly analysis, leading to a 25% faster response time in identifying critical infrastructure issues.
+
+- **Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**  
+  *Publisher: IEEE | Accession Number: 23204218*  
+  - Proposed a Dilated Time-Frequency Attention Autoencoder (DTFAAEC) model that enhanced real-time speech intelligibility and quality by up to 30% (based on PESQ and STOI evaluation).  
+  - Integrated dilated convolutions, sub-pixel convolutions, and TFA modules, improving multi-resolution feature extraction and temporal modeling over baseline CNN architectures.  
+  - Achieved a relative PESQ improvement of +0.4 points and STOI improvement of +5.2% on standard speech enhancement datasets.
