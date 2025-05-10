@@ -25,7 +25,7 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
  ## 🎓 Education
 
 - **Florida State University, Tallahassee, FL** — *Master of Science in Computer Science*  
-  Aug 2024 – May 2026 | CGPA: 4.0/4.0
+  Aug 2024 – May 2026 | CGPA: 3.95/4.0
 
 - **Vellore Institute of Technology, Andhra Pradesh** — *Bachelor of Technology in Computer Science and Engineering (Data Analytics)*  
   Aug 2020 – May 2024 | CGPA: 9.38/10.0
