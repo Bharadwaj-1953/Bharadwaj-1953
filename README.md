@@ -83,4 +83,3 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
 
 - **Email**: manne.bharadwaj.1953@gmail.com
 - **LinkedIn**: [Bharadwaj Manne](https://www.linkedin.com/in/bharadwaj-manne-711476249/)
-- **GitHub**: [Bharadwaj-1953](https://github.com/Bharadwaj-1953)
