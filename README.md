@@ -62,7 +62,7 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
   - Engineered a semantic computer vision framework that improved anomaly detection accuracy by approximately 20% compared to conventional image classification models.  
   - Designed animated visualization techniques for intuitive anomaly analysis, leading to a 25% faster response time in identifying critical infrastructure issues.
 
-- **Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**  
+- [**Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**](https://ieeexplore.ieee.org/abstract/document/10134924)<br>
   *Publisher: IEEE | Accession Number: 23204218*  
   - Proposed a Dilated Time-Frequency Attention Autoencoder (DTFAAEC) model that enhanced real-time speech intelligibility and quality by up to 30% (based on PESQ and STOI evaluation).  
   - Integrated dilated convolutions, sub-pixel convolutions, and TFA modules, improving multi-resolution feature extraction and temporal modeling over baseline CNN architectures.  
