@@ -56,8 +56,7 @@ I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong
 
 ## 📝 Patents & Publications
 
-- [**Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques**](https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus)
-
+- [**Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques**](https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus)  
   *Publisher: IPO India | Application Number: 202321049964*  
   - Developed a machine learning-based anomaly detection system for real-time structural health monitoring of civil infrastructure.  
   - Engineered a semantic computer vision framework that improved anomaly detection accuracy by approximately 20% compared to conventional image classification models.  
