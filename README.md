@@ -10,7 +10,7 @@ I'm a passionate Software Developer, Researcher, and Cloud Computing Enthusiast 
   - Developed LLVM instrumentation passes for vector clocks and synchronization tracing to detect race conditions and data inconsistencies.  
   - Designed a multi-threaded I/O benchmarking framework, achieving a 28% improvement in throughput through lock optimization and profiling.  
   - Implemented performance monitoring tools using C++ for kernel-level analysis and fault isolation.  
-  - Mentoring 150+ students in kernel programming, process scheduling, and synchronization mechanisms for the Operating Systems (COP 4610) course.  
+  - Mentoring 150+ students in core subject areas including kernel programming, process scheduling, and synchronization mechanisms. 
   - Automated VM provisioning and conducted lab sessions on system calls, timers, and semaphores, reinforcing practical OS and concurrency concepts.
 
 - **Cloud Developer Intern** — *Unical Systems, Hyderabad, India*  
