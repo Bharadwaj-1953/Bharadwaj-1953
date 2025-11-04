@@ -1,85 +1,84 @@
 # Hi, I'm Bharadwaj Manne! 👋
 
-I'm a passionate Software Developer and Cloud Computing Enthusiast with a strong foundation in Data Science, Machine Learning, and Cloud-Native Architectures. With hands-on experience designing scalable, resilient systems on AWS and GCP, I enjoy building intelligent, data-driven applications that solve real-world problems. From developing cloud-based OTT platforms and healthcare integration solutions to engineering predictive models in agriculture and healthcare, I continuously explore the intersection of software engineering, cloud computing, and artificial intelligence.
+I'm a passionate Software Developer, Researcher, and Cloud Computing Enthusiast pursuing my Master’s in Computer Science at Florida State University. I specialize in Distributed Systems, Concurrency, and Cloud-Native Engineering, with a focus on building scalable, fault-tolerant, and high-performance solutions. With hands-on experience across AWS, GCP, and Azure, I enjoy designing intelligent, reliable, and efficient systems that bridge the gap between software engineering, systems research, and cloud infrastructure.
 
 ## 💼 Professional Experience
 
-- **Cloud Developer Intern** — *Unical Systems, Hyderabad*  
+- **Graduate Research & Teaching Assistant** — *Florida State University, Tallahassee, FL*  
+  *May 2025 – Present*  
+  - Conducting research on concurrency bugs, persistent memory, and performance optimization in distributed systems under Dr. An-I Wang.  
+  - Developed LLVM instrumentation passes for vector clocks and synchronization tracing to detect race conditions and data inconsistencies.  
+  - Designed a multi-threaded I/O benchmarking framework, achieving a 28% improvement in throughput through lock optimization and profiling.  
+  - Implemented performance monitoring tools using C++ for kernel-level analysis and fault isolation.  
+  - Mentoring 150+ students in kernel programming, process scheduling, and synchronization mechanisms for the Operating Systems (COP 4610) course.  
+  - Automated VM provisioning and conducted lab sessions on system calls, timers, and semaphores, reinforcing practical OS and concurrency concepts.
+
+- **Cloud Developer Intern** — *Unical Systems, Hyderabad, India*  
   *Dec 2023 – Apr 2024*  
-  - Designed and deployed scalable AWS cloud infrastructure, improving system availability and reducing operational costs by 30%.  
-  - Implemented Docker-based microservices and Kubernetes orchestration, accelerating deployment times and making the infrastructure more resilient.  
-  - Built automated scaling and monitoring solutions, helping maintain 99.9% uptime during variable workloads.
+  - Deployed scalable microservices on AWS EC2, S3, and IAM, automating deployment and configuration.  
+  - Containerized applications using Docker and Kubernetes, reducing downtime by 39% and improving scalability.  
+  - Built CI/CD pipelines with Jenkins and Terraform, enhancing integration efficiency and cloud performance.
 
-- **Data Scientist Intern** — *Smart Bridge, Hyderabad*  
+- **Applied Data Science Extern** — *SmartInternz, Remote*  
   *May 2023 – Jul 2023*  
-  - Developed a machine learning-based crop prediction system using Random Forest and XGBoost, improving forecast accuracy to around 96%.  
-  - Processed and engineered over 5,000 agricultural datasets to fine-tune predictive models and deliver actionable insights.  
-  - Designed a lightweight Flask web application to visualize predictions, making the tool accessible for non-technical stakeholders.
+  - Developed an applied data science pipeline using Python, Pandas, NumPy, and Scikit-learn for large-scale analytics.  
+  - Built and evaluated predictive ML models achieving 96% accuracy on real-world datasets.  
+  - Deployed trained models through Flask REST APIs and cloud platforms, enabling real-time predictions.
 
-- **Java Developer Intern** — *Oasis Infobyte, New Delhi*  
-  *Jun 2022 – Aug 2022*  
-  - Developed and optimized payroll management software that reduced payroll processing time by nearly 40% for a 500-employee organization.  
-  - Built RESTful APIs with Spring Boot to integrate payroll operations with HR platforms, streamlining administrative tasks.  
-  - Conducted collaborative code reviews and testing sessions, contributing to a 30% reduction in post-deployment issues.
- 
- ## 🎓 Education
+- **Java Developer Intern** — *Oasis Infobyte, Remote*  
+  *Sep 2022 – Oct 2022*  
+  - Designed a Payroll Management System in Java (Spring Boot + MySQL), boosting efficiency by 47%.  
+  - Implemented secure authentication and RESTful APIs for data management and transactions.  
+  - Performed debugging, unit testing, and optimization to improve reliability and system performance.
+
+## 🎓 Education
 
 - **Florida State University, Tallahassee, FL** — *Master of Science in Computer Science*  
-  Aug 2024 – May 2026 | CGPA: 3.95/4.0
+  Aug 2024 – May 2026 | GPA: 3.95 / 4.0  
 
-- **Vellore Institute of Technology, Andhra Pradesh** — *Bachelor of Technology in Computer Science and Engineering (Data Analytics)*  
-  Aug 2020 – May 2024 | CGPA: 9.38/10.0
-  
+- **Vellore Institute of Technology, Amaravati, India** — *Bachelor of Technology in Computer Science and Engineering (Data Analytics)*  
+  Aug 2020 – May 2024 | CGPA: 9.38 / 10.0  
 
 ## 🛠️ Skills & Tools
 
-- **Languages**: Java, C, C++, Python, R, SQL, PHP 
-
-- **Cloud Platforms**: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure
-
-- **Web & App Development**: HTML, CSS, JavaScript, Node.js, Spring Boot, Flask
-
-- **Databases**: MySQL, PostgreSQL, Oracle, MongoDB
-
-- **Machine Learning**: TensorFlow, Keras, Scikit-Learn, XGBoost, Random Forest, SVM, K-NN, ANN, Naïve Bayes
-
-- **Data Science & Analytics**: Pandas, NumPy, MATLAB, Data Mining, Predictive Modeling
-
-- **Deep Learning & Image Processing**: Convolutional Neural Networks (CNNs), OpenCV, Dilated Convolution
-
-- **DevOps**: Docker, Kubernetes, Jenkins, Git, Apache Airflow
-
-- **AWS Services**: EC2, S3, Lambda, IAM, CloudWatch, CloudFormation, RDS
-
-- **IDEs & Tools**: Visual Studio, Eclipse, PyCharm, Jupyter Notebook, R Studio, Power BI
-
+- **Programming Languages**: Java, Python, C++, C, R, JavaScript, SQL, Bash  
+- **Web Development**: HTML, CSS, Tailwind CSS, React, Node.js, Spring Boot, Flask, Postman  
+- **Databases**: MySQL, PostgreSQL, MongoDB, Oracle, SQLite, DynamoDB  
+- **Cloud Platforms & Services**: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure, Chameleon Cloud  
+- **DevOps & CI/CD**: Git, Docker, Kubernetes, Terraform, Jenkins, Apache Airflow, Ubuntu, Shell Scripting  
+- **Distributed & Systems Tools**: Linux Kernel Modules, LLVM, Thread Sanitizer (TSan), Concurrency Detection, Persistent Memory  
+- **Machine Learning & AI**: TensorFlow, PyTorch, Keras, Scikit-Learn, OpenCV, Pandas, NumPy  
+- **Data Science & Analytics**: Tableau, Power BI, Data Mining, Data Warehousing, Data Visualization  
+- **IDEs & Tools**: VS Code, IntelliJ IDEA, PyCharm, Jupyter Notebook, Eclipse  
 
 ## 📝 Patents & Publications
 
 - [**Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques**](https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus)  
   *Publisher: IPO India | Application Number: 202321049964*  
-  - Developed a machine learning-based anomaly detection system for real-time structural health monitoring of civil infrastructure.  
-  - Engineered a semantic computer vision framework that improved anomaly detection accuracy by approximately 20% compared to conventional image classification models.  
-  - Designed animated visualization techniques for intuitive anomaly analysis, leading to a 25% faster response time in identifying critical infrastructure issues.
+  - Designed a machine learning–based anomaly detection system for civil infrastructure using semantic computer vision and big-data analytics for real-time monitoring.  
+  - Achieved a 27% reduction in false positives through context-aware processing and a configurable rule-based framework adaptable to diverse infrastructure scenarios.  
+  - Integrated edge-device deployment capability for real-time video analytics, improving detection latency and scalability in distributed environments.
 
-- [**Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**](https://ieeexplore.ieee.org/abstract/document/10134924)<br>
+- [**Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**](https://ieeexplore.ieee.org/abstract/document/10134924)  
   *Publisher: IEEE | Accession Number: 23204218*  
-  - Proposed a Dilated Time-Frequency Attention Autoencoder (DTFAAEC) model that enhanced real-time speech intelligibility and quality by up to 30% (based on PESQ and STOI evaluation).  
-  - Integrated dilated convolutions, sub-pixel convolutions, and TFA modules, improving multi-resolution feature extraction and temporal modeling over baseline CNN architectures.  
-  - Achieved a relative PESQ improvement of +0.4 points and STOI improvement of +5.2% on standard speech enhancement datasets.
+  - Developed a Dilated Time-Frequency Attention Autoencoder (DTFAAEC) to enhance real-time speech quality using dilated convolutions and attention mechanisms.  
+  - Demonstrated a 34% improvement in intelligibility compared with prior models through comprehensive real-time testing on noisy-speech datasets.  
+  - Implemented the framework using Python and TensorFlow, achieving low-latency inference suitable for embedded and streaming audio applications.
 
 ## 🏆 Certifications & Skill Endorsements
 
-- **Google Cloud Platform (GCP) Certified**: Associate Cloud Engineer
-- **Amazon Web Services (AWS) Certified**: AWS Academy Cloud Foundations
-- **Microsoft Azure Certified**: Azure Data Fundamentals (DP-900), Azure AI Fundamentals (AI-900), Power Platform Fundamentals (PL-900), Azure Fundamentals (AZ-900)
-- **Salesforce Certified**: AI Specialist, AI Associate
-- **Cisco Certified**: Introduction to IoT, Introduction to Cybersecurity
-- **VIT Certified**: Advanced Data Analytics, Data Science and Advanced Analytics
-- **HackerRank**: Golden Badge in Java Programming
-- **MATLAB Certified**: MATLAB Onramp, Optimization Onramp
+- **Google Cloud Platform (GCP) Certified**: Associate Cloud Engineer  
+- **Amazon Web Services (AWS) Certified**: AWS Academy Cloud Foundations  
+- **Microsoft Azure Certified**: Azure Data Fundamentals (DP-900), Azure AI Fundamentals (AI-900), Power Platform Fundamentals (PL-900), Azure Fundamentals (AZ-900)  
+- **Salesforce Certified**: AI Specialist, AI Associate  
+- **Cisco Certified**: Introduction to IoT, Introduction to Cybersecurity  
+- **VIT Certified**: Advanced Data Analytics, Data Science and Advanced Analytics  
+- **HackerRank**: Golden Badge in Java Programming  
+- **MATLAB Certified**: MATLAB Onramp, Optimization Onramp  
 
 ## 🌐 Contact & Connect
 
-- **Email**: manne.bharadwaj.1953@gmail.com
-- **LinkedIn**: [Bharadwaj Manne](https://www.linkedin.com/in/bharadwaj-manne-711476249/)
+- **Email**: bharadwajmanne.195@gmail.com  
+- **LinkedIn**: [Bharadwaj Manne](https://www.linkedin.com/in/bharadwaj-manne-711476249/)  
+- **Portfolio**: [bharadwaj.vercel.app](https://bharadwaj.vercel.app)  
+- **GitHub**: [Bharadwaj-1953](https://github.com/Bharadwaj-1953)
