@@ -1,7 +1,7 @@
 # Hi, I'm Bharadwaj Manne! 👋
 
 I'm a passionate Software Developer, Researcher, and Cloud Computing Enthusiast pursuing my Master’s in Computer Science at Florida State University. I specialize in Distributed Systems, Concurrency, and Cloud-Native Engineering, with a focus on building scalable, fault-tolerant, and high-performance solutions. With hands-on experience across AWS, GCP, and Azure, I enjoy designing intelligent, reliable, and efficient systems that bridge the gap between software engineering, systems research, and cloud infrastructure.
-
+<!--
 ## 💼 Professional Experience
 
 - **Graduate Research & Teaching Assistant** — *Florida State University, Tallahassee, FL*  
@@ -29,7 +29,7 @@ I'm a passionate Software Developer, Researcher, and Cloud Computing Enthusiast 
   *Sep 2022 – Oct 2022*  
   - Designed a Payroll Management System in Java (Spring Boot + MySQL), boosting efficiency by 47%.  
   - Implemented secure authentication and RESTful APIs for data management and transactions.  
-  - Performed debugging, unit testing, and optimization to improve reliability and system performance.
+  - Performed debugging, unit testing, and optimization to improve reliability and system performance. -->
 
 ## 🎓 Education
 
