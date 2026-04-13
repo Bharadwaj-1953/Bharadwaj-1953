@@ -1,84 +1,93 @@
-# Hi, I'm Bharadwaj Manne! 👋
+# 👋 Bharadwaj Manne
 
-I'm a passionate Software Developer, Researcher, and Cloud Computing Enthusiast pursuing my Master’s in Computer Science at Florida State University. I specialize in Distributed Systems, Concurrency, and Cloud-Native Engineering, with a focus on building scalable, fault-tolerant, and high-performance solutions. With hands-on experience across AWS, GCP, and Azure, I enjoy designing intelligent, reliable, and efficient systems that bridge the gap between software engineering, systems research, and cloud infrastructure.
-<!--
-## 💼 Professional Experience
+**Systems Engineer** | **Distributed Systems** | **High-Performance Computing**
 
-- **Graduate Research & Teaching Assistant** — *Florida State University, Tallahassee, FL*  
-  *May 2025 – Present*  
-  - Conducting research on concurrency bugs, persistent memory, and performance optimization in distributed systems under Dr. An-I Wang.  
-  - Developed LLVM instrumentation passes for vector clocks and synchronization tracing to detect race conditions and data inconsistencies.  
-  - Designed a multi-threaded I/O benchmarking framework, achieving a 28% improvement in throughput through lock optimization and profiling.  
-  - Implemented performance monitoring tools using C++ for kernel-level analysis and fault isolation.  
-  - Mentoring 150+ students in core subject areas including kernel programming, process scheduling, and synchronization mechanisms. 
-  - Automated VM provisioning and conducted lab sessions on system calls, timers, and semaphores, reinforcing practical OS and concurrency concepts.
+Building scalable, resilient infrastructure that works under extreme conditions.
 
-- **Cloud Developer Intern** — *Unical Systems, Hyderabad, India*  
-  *Dec 2023 – Apr 2024*  
-  - Deployed scalable microservices on AWS EC2, S3, and IAM, automating deployment and configuration.  
-  - Containerized applications using Docker and Kubernetes, reducing downtime by 39% and improving scalability.  
-  - Built CI/CD pipelines with Jenkins and Terraform, enhancing integration efficiency and cloud performance.
+---
 
-- **Applied Data Science Extern** — *SmartInternz, Remote*  
-  *May 2023 – Jul 2023*  
-  - Developed an applied data science pipeline using Python, Pandas, NumPy, and Scikit-learn for large-scale analytics.  
-  - Built and evaluated predictive ML models achieving 96% accuracy on real-world datasets.  
-  - Deployed trained models through Flask REST APIs and cloud platforms, enabling real-time predictions.
+## 🎯 About Me
 
-- **Java Developer Intern** — *Oasis Infobyte, Remote*  
-  *Sep 2022 – Oct 2022*  
-  - Designed a Payroll Management System in Java (Spring Boot + MySQL), boosting efficiency by 47%.  
-  - Implemented secure authentication and RESTful APIs for data management and transactions.  
-  - Performed debugging, unit testing, and optimization to improve reliability and system performance. -->
+Systems Engineer specializing in distributed systems, fault tolerance, and high-performance computing. With 3+ years of systems engineering experience and graduate-level research, I've architected decentralized fault detection frameworks achieving **99.5% accuracy**, engineered high-performance algorithms delivering **221× speedup**, and optimized latency-critical systems reducing communication overhead by **73%**.
+
+I understand systems at every level—from concurrent data structures and RDMA networking to kernel-level debugging and distributed consensus. Passionate about building systems that are fast, reliable, and resilient.
+
+---
+
+## 💼 Experience
+
+### **Systems Research Engineer** | Florida State University
+*Aug 2025 – Present | Tallahassee, FL*
+
+- **NIFTY** — Decentralized fault-tolerance framework. **99.5% detection accuracy** | **<3% CPU overhead** | 2–8 node clusters | Peer-to-peer heartbeat monitoring
+- **MDUAL** — High-performance outlier detection. **221× speedup** | **13× memory reduction** | 6 real-world datasets | Sub-millisecond latency
+- **Infrastructure** — 300+ students supported | 67% overhead reduction | Proxmox cluster (8+ nodes) | GDB/perf/valgrind debugging
+- **Mentorship** — Systems programming education for 8+ developers | C++17, concurrency, performance profiling, distributed debugging
+
+### **Systems Engineer** | Sri Bharamara Pvt Ltd
+*May 2021 – May 2024 | Guntur, India*
+
+- **Distributed Hash Table** — 4–8 node clusters | **Near-linear scalability** | **<2% communication overhead** | 11-bit hybrid hash function
+- **RDMA Optimization** — InfiniBand fabric | **73% latency reduction** | One-sided memory access | Eliminated synchronization bottlenecks
+- **Resilience** — **<150ms failure detection** | Decentralized log aggregation | Byzantine failure testing | Network partition resilience
+- **Performance Analysis** — perf/valgrind profiling | **15–23% efficiency gains** | Cache-conscious design | Multi-hardware benchmarking
+- **Automation** — Deployment pipelines | Secure SSH communication | Infrastructure-as-code | Linux environment scaling
+
+---
 
 ## 🎓 Education
 
-- **Florida State University, Tallahassee, FL** — *Master of Science in Computer Science*  
-  Aug 2024 – May 2026 | GPA: 3.95 / 4.0  
+**Master of Science in Computer Science**  
+Florida State University | Aug 2024 – May 2026 | **GPA: 3.84/4.0**
 
-- **Vellore Institute of Technology, Amaravati, India** — *Bachelor of Technology in Computer Science and Engineering (Data Analytics)*  
-  Aug 2020 – May 2024 | CGPA: 9.38 / 10.0  
+---
 
-## 🛠️ Skills & Tools
+## 🛠️ Technical Skills
 
-- **Programming Languages**: Java, Python, C++, C, R, JavaScript, SQL, Bash  
-- **Web Development**: HTML, CSS, Tailwind CSS, React, Node.js, Spring Boot, Flask, Postman  
-- **Databases**: MySQL, PostgreSQL, MongoDB, Oracle, SQLite, DynamoDB  
-- **Cloud Platforms & Services**: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure, Chameleon Cloud  
-- **DevOps & CI/CD**: Git, Docker, Kubernetes, Terraform, Jenkins, Apache Airflow, Ubuntu, Shell Scripting  
-- **Distributed & Systems Tools**: Linux Kernel Modules, LLVM, Thread Sanitizer (TSan), Concurrency Detection, Persistent Memory  
-- **Machine Learning & AI**: TensorFlow, PyTorch, Keras, Scikit-Learn, OpenCV, Pandas, NumPy  
-- **Data Science & Analytics**: Tableau, Power BI, Data Mining, Data Warehousing, Data Visualization  
-- **IDEs & Tools**: VS Code, IntelliJ IDEA, PyCharm, Jupyter Notebook, Eclipse  
+* **Programming Languages:** C++, C, Python, Bash
 
-## 📝 Patents & Publications
+* **Distributed Systems & Architecture:** Distributed Systems Architecture, Fault Tolerance, Decentralized Systems, Consensus Algorithms, Distributed Hash Tables (DHT), Lock-Free Synchronization, Atomic Operations
 
-- [**Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques**](https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus)  
-  *Publisher: IPO India | Application Number: 202321049964*  
-  - Designed a machine learning–based anomaly detection system for civil infrastructure using semantic computer vision and big-data analytics for real-time monitoring.  
-  - Achieved a 27% reduction in false positives through context-aware processing and a configurable rule-based framework adaptable to diverse infrastructure scenarios.  
-  - Integrated edge-device deployment capability for real-time video analytics, improving detection latency and scalability in distributed environments.
+* **High-Performance Computing & Networking:** RDMA (Remote Direct Memory Access), InfiniBand, MPI (Message Passing Interface), OpenMPI, Performance Profiling, Memory-Efficient Programming, Memory Management, Latency Reduction, Throughput Analysis, Cache-Conscious Design, Benchmarking
 
-- [**Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**](https://ieeexplore.ieee.org/abstract/document/10134924)  
-  *Publisher: IEEE | Accession Number: 23204218*  
-  - Developed a Dilated Time-Frequency Attention Autoencoder (DTFAAEC) to enhance real-time speech quality using dilated convolutions and attention mechanisms.  
-  - Demonstrated a 34% improvement in intelligibility compared with prior models through comprehensive real-time testing on noisy-speech datasets.  
-  - Implemented the framework using Python and TensorFlow, achieving low-latency inference suitable for embedded and streaming audio applications.
+* **Concurrency & Synchronization:** Concurrent Programming, Multithreading, Race Condition Detection, Deadlock Detection
 
-## 🏆 Certifications & Skill Endorsements
+* **Debugging & Tools:** GDB, perf (Linux Profiler), valgrind, Linux Systems Administration
 
-- **Google Cloud Platform (GCP) Certified**: Associate Cloud Engineer  
-- **Amazon Web Services (AWS) Certified**: AWS Academy Cloud Foundations  
-- **Microsoft Azure Certified**: Azure Data Fundamentals (DP-900), Azure AI Fundamentals (AI-900), Power Platform Fundamentals (PL-900), Azure Fundamentals (AZ-900)  
-- **Salesforce Certified**: AI Specialist, AI Associate  
-- **Cisco Certified**: Introduction to IoT, Introduction to Cybersecurity  
-- **VIT Certified**: Advanced Data Analytics, Data Science and Advanced Analytics  
-- **HackerRank**: Golden Badge in Java Programming  
-- **MATLAB Certified**: MATLAB Onramp, Optimization Onramp  
+* **Infrastructure & DevOps:** Docker, Containerization, Kubernetes, SSH / Secure Shell, Infrastructure Automation, Configuration Management, Scalability Testing
 
-## 🌐 Contact & Connect
+* **Parallel & Cloud Computing:** Parallel Computing, Cluster Computing, AWS, Google Cloud Platform (GCP)
 
-- **Email**: bharadwajmanne.195@gmail.com  
-- **LinkedIn**: [Bharadwaj Manne](https://www.linkedin.com/in/bharadwaj-manne-711476249/)  
-- **Portfolio**: [bharadwaj.vercel.app](https://bharadwaj.vercel.app)  
-- **GitHub**: [Bharadwaj-1953](https://github.com/Bharadwaj-1953)
+* **Build & Version Control:** CMake, Makefile, GNU Make, Git
+
+---
+
+## 📚 Publications & Patents
+
+📖 **Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques**
+- IPO India | Application: 202321049964
+
+📖 **Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**
+- IEEE | Accession: 23204218
+
+---
+
+## 🏆 Certifications
+
+🥇 **Google Cloud Platform** — Associate Cloud Engineer (Jun 2023, expires Jun 2026)  
+🥇 **Amazon Web Services** — AWS Academy Cloud Foundations (Jun 2023)  
+🥇 **Cisco** — Cybersecurity Essentials (May 2022)
+
+---
+
+## 🌐 Connect
+
+📧 bharadwajmanne.195@gmail.com  |  🔗 [LinkedIn](https://www.linkedin.com/in/bharadwaj-manne-711476249/)  |  🌍 [Portfolio](https://bharadwaj.vercel.app)  |  💻 [GitHub](https://github.com/Bharadwaj-1953)
+
+---
+
+<div align="center">
+
+© 2026 Bharadwaj Manne. All rights reserved.
+
+</div>
