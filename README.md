@@ -13,6 +13,7 @@ Systems Engineer specializing in distributed systems, fault tolerance, and high-
 I understand systems at every level — from concurrent data structures and RDMA networking to kernel-level debugging and distributed consensus. Currently a Systems Research Engineer at Florida State University where I mentor 8+ developers in systems programming, conduct research on persistent memory and race condition detection, and manage infrastructure supporting 300+ students.
 
 Passionate about building systems that are fast, reliable, and resilient. Whether designing distributed hash tables with <2% overhead, eliminating synchronization bottlenecks with RDMA, or implementing fault detection mechanisms achieving <150ms response time, I focus on systems that work under extreme conditions.
+
 ---
 
 ## 💼 Experience
