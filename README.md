@@ -40,7 +40,7 @@ Passionate about building systems that are fast, reliable, and resilient. Whethe
 ## 🎓 Education
 
 **Master of Science in Computer Science**  
-Florida State University | Aug 2024 – May 2026 | **GPA: 3.84/4.0**
+Florida State University | Aug 2024 – May 2026 | **GPA: 3.87/4.0**
 
 ---
 
