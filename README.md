@@ -1,39 +1,30 @@
-# 👋 Bharadwaj Manne
+<div align="center">
 
-**Systems Engineer** | **Distributed Systems** | **High-Performance Computing**
+# 👋 Hi there, I’m  **Bharadwaj Manne**
 
-Building scalable, resilient infrastructure that works under extreme conditions.
+### 💻 Software Developer
+
+</div>
 
 ---
 
 ## 🎯 About Me
 
-Systems Engineer specializing in distributed systems, fault tolerance, and high-performance computing. With 3+ years of systems engineering experience and graduate-level research, I've architected decentralized fault detection frameworks achieving 99.5% accuracy, engineered high-performance algorithms delivering 221× speedup, and optimized latency-critical systems reducing communication overhead by 73%.
+I am a recent graduate from Florida State University with a strong background in computer science and software development. During my time at FSU, I worked as both a Teaching Assistant and Research Assistant, where I supported students, contributed to academic projects, and strengthened my problem-solving and collaboration skills.
 
-I understand systems at every level — from concurrent data structures and RDMA networking to kernel-level debugging and distributed consensus. Currently a Systems Research Engineer at Florida State University where I mentor 8+ developers in systems programming, conduct research on persistent memory and race condition detection, and manage infrastructure supporting 300+ students.
+Alongside my academic experience, I bring over 3 years of professional experience as a Software Developer. I have worked on designing, developing, and maintaining scalable applications, focusing on writing clean, efficient code and delivering reliable solutions in fast-paced environments.
 
-Passionate about building systems that are fast, reliable, and resilient. Whether designing distributed hash tables with <2% overhead, eliminating synchronization bottlenecks with RDMA, or implementing fault detection mechanisms achieving <150ms response time, I focus on systems that work under extreme conditions.
+I enjoy building impactful software, learning new technologies, and working in collaborative teams to solve real-world problems. I am currently looking for opportunities where I can contribute my skills in software development while continuing to grow as an engineer.
 
 ---
 
 ## 💼 Experience
 
-### **Systems Research Engineer** | Florida State University
+### **Graduate Assistant** | Florida State University
 *Aug 2025 – Present | Tallahassee, FL*
 
-- Developed NIFTY, a decentralized fault-tolerance framework achieving 99.5% detection accuracy with less than 3% CPU overhead, supporting 2–8 node clusters using peer-to-peer heartbeat monitoring.
-- Engineered MDUAL, a high-performance outlier detection algorithm delivering 221× speedup and 13× memory reduction across 6 real-world datasets with sub-millisecond latency.
-- Managed infrastructure supporting 300+ students with 67% overhead reduction on Proxmox cluster with 8+ nodes, utilizing GDB, perf, and valgrind for advanced debugging.
-- Mentored 8+ developers in systems programming fundamentals including C++17, concurrency patterns, performance profiling, and distributed debugging techniques.
-
-### **Systems Engineer** | Sri Bharamara Pvt Ltd
+### **Software Developer** | Sri Bharamara Pvt Ltd
 *May 2021 – May 2024 | Guntur, India*
-
-- Designed and implemented a distributed hash table supporting 4–8 node clusters with near-linear scalability and less than 2% communication overhead using an 11-bit hybrid hash function.
-- Optimized RDMA communication over InfiniBand fabric, reducing latency by 73% through one-sided memory access patterns and elimination of synchronization bottlenecks.
-- Built resilience mechanisms with less than 150ms failure detection, decentralized log aggregation, Byzantine failure testing, and network partition resilience.
-- Conducted comprehensive performance analysis using perf and valgrind profilers, achieving 15–23% efficiency gains through cache-conscious design and multi-hardware benchmarking.
-- Automated deployment pipelines with secure SSH communication and infrastructure-as-code practices for Linux environment scaling.
 
 ---
 
