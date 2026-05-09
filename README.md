@@ -31,25 +31,12 @@ I enjoy building impactful software, learning new technologies, and working in c
 ## 🎓 Education
 
 **Master of Science in Computer Science**  
-Florida State University | Aug 2024 – May 2026 | **GPA: 3.87/4.0**
+Florida State University | Aug 2024 – May 2026 | **CGPA: 3.87/4.0**
+
+**Bachelor of Technology in Computer Science and Engineering**  
+Vellore institute of Technology | **CGPA: 9.38/10.0**
 
 ---
-
-## 🛠️ Technical Skills
-
-* **Programming:** C++, C, Python, Bash
-
-* **Distributed Systems:** Distributed Systems Architecture, Fault Tolerance, Decentralized Systems, Consensus Algorithms, Distributed Hash Tables (DHT), Lock-Free Synchronization, Atomic Operations
-
-* **HPC & Networking:** RDMA (Remote Direct Memory Access), InfiniBand, MPI (Message Passing Interface), OpenMPI, High Performance Computing, Cluster Computing
-
-* **Performance Optimization:** Performance Profiling, Memory-Efficient Programming, Memory Management, Latency Reduction, Throughput Analysis, Cache-Conscious Design, Benchmarking
-
-* **Concurrency & Debugging:** Concurrent Programming, Multithreading, Race Condition Detection, Deadlock Detection, GDB, perf (Linux Profiler), valgrind
-
-* **Infrastructure & DevOps:** Linux Systems Administration, Docker, Containerization, Kubernetes, SSH / Secure Shell, Infrastructure Automation, Configuration Management, Scalability Testing
-
-* **Cloud & Build Tools:** AWS, Google Cloud Platform (GCP), CMake, Makefile, GNU Make, Git
 
 ---
 
@@ -65,9 +52,11 @@ Florida State University | Aug 2024 – May 2026 | **GPA: 3.87/4.0**
 
 ## 🏆 Certifications
 
-🥇 **Google Cloud Platform** — Associate Cloud Engineer (Jun 2023, expires Jun 2026)  
-🥇 **Amazon Web Services** — AWS Academy Cloud Foundations (Jun 2023)  
-🥇 **Cisco** — Cybersecurity Essentials (May 2022)
+🥇 **Google Cloud Platform** — Associate Cloud Engineer
+
+🥇 **Amazon Web Services** — AWS Academy Cloud Foundations  
+
+🥇 **Cisco** — Cybersecurity Essentials 
 
 ---
 
