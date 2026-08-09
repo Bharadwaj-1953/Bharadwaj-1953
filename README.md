@@ -145,11 +145,11 @@ Certified across AWS, Google Cloud, Azure, Salesforce, and Anthropic.
 
 <blockquote>
 
-**Research Assistant**<br/>
-Apprenticeship &nbsp;·&nbsp; May 2025 - May 2026 &nbsp;·&nbsp; Hybrid
-
 **Graduate Assistant in Teaching**<br/>
 Contract &nbsp;·&nbsp; Aug 2025 - May 2026 &nbsp;·&nbsp; On-site
+
+**Research Assistant**<br/>
+Apprenticeship &nbsp;·&nbsp; May 2025 - May 2026 &nbsp;·&nbsp; Hybrid
 
 </blockquote>
 
