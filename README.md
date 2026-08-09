@@ -260,7 +260,7 @@ Bachelor of Technology, Computer Science and Engineering &nbsp;·&nbsp; Aug 2020
 &nbsp;&nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/bharadwaj-manne-711476249/">
-  <img src="https://simpleicons.org" height="40" alt="LinkedIn">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" height="40" alt="LinkedIn">
 </a>
 &nbsp;&nbsp;&nbsp;
 
