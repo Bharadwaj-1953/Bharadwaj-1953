@@ -1,290 +1,317 @@
-<div align="center">
-
 # Bharadwaj Manne
 
-**Software Engineer &nbsp;·&nbsp; Backend & Distributed Systems**
+**Software engineer · Backend & distributed systems**
 
-</div>
-
----
-
-## About
-
-Software Engineer focused on backend and distributed systems. I work at the layer where design decisions carry real weight in latency, fault tolerance, and correctness guarantees that have to hold under real load, not just under controlled conditions.
-
-My core is systems programming, parallel and distributed computing, high-performance data processing, and cloud infrastructure. I understand how memory hierarchies, network protocols, and distributed coordination behave under stress, and I build systems designed around those failure modes rather than around the assumption they won't occur. I work across the full stack as the problem demands, including ML pipelines, cloud-native platforms, and modern web applications, staying fluent in each layer to reason clearly about how they interact.
-
-My engineering is grounded in research: co-authored a published IEEE paper on deep learning for real-time speech enhancement and co-invented a filed patent with the Intellectual Property Office of India in semantic computer vision for anomaly detection. That foundation is not separate from the engineering. It defines the standard I hold my own work to: rigorous in assumptions, disciplined in validation, and precise in diagnosing what actually breaks before proposing what to fix.
-
-Certified across AWS, Google Cloud, Azure, Salesforce, and Anthropic.
+I’m a software engineer focused on backend and distributed systems. At the Florida Department of Children & Families, I build Python and SQL automation and SSIS workflows for child welfare programs and federal reporting. I hold an M.S. in Computer Science from Florida State University.
 
 ---
 
-## Tech Stack
+## 🛠️ Featured Projects
 
-<table width="100%">
-<tr>
-<td valign="top" width="50%">
+### • PMTrace · Persistent Memory File System Bug Detection Framework
 
-**Languages**
+Built a crash-testing framework for persistent-memory file systems and reproduced six bugs across NOVA, PMFS, and WineFS.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnubash&logoColor=white)
+<details>
+<summary>PMTrace technical details</summary>
 
-</td>
-<td valign="top" width="50%">
+- Built on research published at USENIX FAST ’25.
+- Generated crash plans and reproduced six real-world bugs in NOVA, PMFS, and WineFS using isolated QEMU/KVM virtual machines.
+- Compared Silhouette, 2CP, and Invariants+Comb while tracking in-flight stores and duplicate fences.
+- Evaluated ACE-seq2 and ACE-seq3 workloads with up to 20 concurrent VMs.
 
-**Backend & Systems**
+**Tools:** Python · Shell Scripting · QEMU/KVM · C++ · Linux
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-475569?style=flat)
-![MPI](https://img.shields.io/badge/MPI-475569?style=flat)
-![OpenMPI](https://img.shields.io/badge/OpenMPI-475569?style=flat)
-![RDMA](https://img.shields.io/badge/RDMA-475569?style=flat)
-![InfiniBand](https://img.shields.io/badge/InfiniBand-475569?style=flat)
-![QEMU](https://img.shields.io/badge/QEMU-475569?style=flat)
-![Distributed Systems](https://img.shields.io/badge/Distributed_Systems-475569?style=flat)
-![Parallel Computing](https://img.shields.io/badge/Parallel_Computing-475569?style=flat)
-![Concurrent Programming](https://img.shields.io/badge/Concurrent_Programming-475569?style=flat)
-![Memory Management](https://img.shields.io/badge/Memory_Management-475569?style=flat)
-![File Systems](https://img.shields.io/badge/File_Systems-475569?style=flat)
-![Performance Optimization](https://img.shields.io/badge/Performance_Optimization-475569?style=flat)
+[View full project on GitHub](https://github.com/Bharadwaj-1953/PMTrace)
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+</details>
 
-**Frontend**
+### • DriftScope · High-Performance Data Stream Outlier Detection Engine
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat&logo=d3dotjs&logoColor=white)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chartdotjs&logoColor=white)
+Built a C++17 streaming outlier detection engine that achieved a 221× speedup in a six-dataset comparison with SOP and pMCSKY.
 
-</td>
-<td valign="top">
+<details>
+<summary>DriftScope technical details</summary>
 
-**Cloud & DevOps**
+- Benchmarks across six datasets showed a 221× speedup and 13× lower memory use compared with SOP and pMCSKY.
+- Grouped nearby data points with similar queries and prioritized groups for incremental updates.
+- Tested on datasets ranging from one-dimensional stock data to 55-dimensional forest-cover data.
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat&logo=githubactions&logoColor=white)
-![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
-![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white)
-![Containerization](https://img.shields.io/badge/Containerization-475569?style=flat)
-![Virtualization](https://img.shields.io/badge/Virtualization-475569?style=flat)
+**Tools:** C++17 · Linux · Make
 
-</td>
-</tr>
-<tr>
-<td valign="top">
+[View full project on GitHub](https://github.com/Bharadwaj-1953/DriftScope)
 
-**Machine Learning & AI**
+</details>
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
-![CNN](https://img.shields.io/badge/CNN-475569?style=flat)
-![Random Forest](https://img.shields.io/badge/Random_Forest-475569?style=flat)
-![K-Means](https://img.shields.io/badge/K--Means-475569?style=flat)
-![DBSCAN](https://img.shields.io/badge/DBSCAN-475569?style=flat)
-![PCA](https://img.shields.io/badge/PCA-475569?style=flat)
-![SVM](https://img.shields.io/badge/SVM-475569?style=flat)
-![Outlier Detection](https://img.shields.io/badge/Outlier_Detection-475569?style=flat)
+### • EoMT · Panoptic Image Segmentation and Ablation Analysis
 
-</td>
-<td valign="top">
+Reproduced the EoMT panoptic segmentation benchmark at 46.74 panoptic quality across all 5,000 COCO 2017 validation images.
 
-**Databases**
+<details>
+<summary>EoMT technical details</summary>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
-![Row Level Security](https://img.shields.io/badge/Row_Level_Security-475569?style=flat)
+- Matched the official benchmark with 46.74 panoptic quality (PQ) on all 5,000 COCO 2017 validation images.
+- On a 500-image ablation set, 100 object queries reduced PQ by 7.29 points and two query-processing blocks reduced it by 18.94 points.
+- Full attention masking scored 45.68 PQ versus 46.74 on the full validation set. Docker configurations and automated tests support reproduction.
 
-**Data & Visualization**
+**Tools:** Python · PyTorch · Computer Vision · Deep Learning · Vision Transformers (ViT)
 
-![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat&logo=d3dotjs&logoColor=white)
-![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chartdotjs&logoColor=white)
-![GIS](https://img.shields.io/badge/GIS-475569?style=flat)
-![Statistical Analysis](https://img.shields.io/badge/Statistical_Analysis-475569?style=flat)
-![Data Clustering](https://img.shields.io/badge/Data_Clustering-475569?style=flat)
-![Benchmarking](https://img.shields.io/badge/Benchmarking-475569?style=flat)
+[View full project on GitHub](https://github.com/Bharadwaj-1953/EoMT-Panoptic-Segmentation)
 
-</td>
-</tr>
-</table>
+</details>
+
+[View all repositories on GitHub](https://github.com/Bharadwaj-1953?tab=repositories)
+
+---
+
+## Skills
+
+### Featured
+
+<ruby><sub>Python</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>C++</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Java</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>TypeScript</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>AWS</sub><rt><picture><img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Docker</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>PostgreSQL</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Linux</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+### By category
+
+<details>
+<summary><strong>Languages &amp; Programming</strong></summary>
+
+<ruby><sub>Python</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>C++</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>C</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Java</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>JavaScript</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>TypeScript</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>PHP</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>SQL</sub><rt><picture><img src="https://img.icons8.com/color/48/sql.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>R</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>C#</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Bash</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>Web &amp; Backend Development</strong></summary>
+
+<ruby><sub>React</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Next.js</sub><rt><picture><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/nextdotjs/24292f"><img src="https://cdn.simpleicons.org/nextdotjs/ffffff" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Node.js</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>FastAPI</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Flask</sub><rt><picture><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/flask/24292f"><img src="https://cdn.simpleicons.org/flask/ffffff" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Spring&nbsp;Boot</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>NGINX</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Tailwind&nbsp;CSS</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>HTML</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>CSS</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Bootstrap</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>.NET</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>MVC</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Postman</sub><rt><picture><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-postman-is-the-only-complete-api-development-environment-logo-color-tal-revivo.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>Databases</strong></summary>
+
+<ruby><sub>PostgreSQL</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>MySQL</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Redis</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>MongoDB</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Supabase</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/supabase/supabase-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Oracle</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>SQLite</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>DynamoDB</sub><rt><picture><img src="https://www.svgrepo.com/show/353450/aws-dynamodb.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>Cloud Platforms &amp; Services</strong></summary>
+
+<ruby><sub>AWS</sub><rt><picture><img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Google&nbsp;Cloud</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Microsoft&nbsp;Azure</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Vercel</sub><rt><picture><source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/vercel/24292f"><img src="https://cdn.simpleicons.org/vercel/ffffff" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Chameleon&nbsp;Cloud</sub><rt><picture><img src="https://bharadwaj.vercel.app/chameleon.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>DevOps &amp; CI/CD</strong></summary>
+
+<ruby><sub>Docker</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Kubernetes</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Git</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Terraform</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Ansible</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Prometheus</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Grafana</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Apache&nbsp;Airflow</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Linux</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Ubuntu</sub><rt><picture><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/ubuntu-color-icon.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>Machine Learning &amp; AI</strong></summary>
+
+<ruby><sub>TensorFlow</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>PyTorch</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Keras</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>scikit-learn</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>OpenCV</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Hugging&nbsp;Face</sub><rt><picture><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Computer&nbsp;Vision</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/computer-vision.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Panoptic&nbsp;Segmentation</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/panoptic-segmentation.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Vision&nbsp;Transformers&nbsp;(ViT)</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/vision-transformers.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Model&nbsp;Evaluation</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/model-evaluation.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>Data Science &amp; Analytics</strong></summary>
+
+<ruby><sub>pandas</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>NumPy</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Matplotlib</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>D3.js</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Tableau</sub><rt><picture><img src="https://img.icons8.com/color/48/tableau-software.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>MATLAB</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Power&nbsp;BI</sub><rt><picture><img src="https://img.icons8.com/color/48/power-bi.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>GIS</sub><rt><picture><img src="https://img.icons8.com/color/48/geography.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Excel</sub><rt><picture><img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>Enterprise &amp; Government Platforms</strong></summary>
+
+<ruby><sub>Salesforce</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/salesforce/salesforce-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>ServiceNow</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/servicenow.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>SharePoint</sub><rt><picture><img src="https://img.icons8.com/color/48/microsoft-sharepoint-2019.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Power&nbsp;Apps</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/powerapps.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Power&nbsp;Automate</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/powerautomate.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Cherwell&nbsp;(Ivanti)</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/ivanti.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>SSIS</sub><rt><picture><img src="https://img.icons8.com/color/48/microsoft-sql-server.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>SSMS</sub><rt><picture><img src="https://bharadwaj.vercel.app/icons/ssms.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>FSFN</sub><rt><picture><img src="https://img.icons8.com/color/48/family.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>CCWIS</sub><rt><picture><img src="https://img.icons8.com/color/48/certificate.png" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
+
+<details>
+<summary><strong>IDEs &amp; Tools</strong></summary>
+
+<ruby><sub>VS&nbsp;Code</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>IntelliJ&nbsp;IDEA</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>PyCharm</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Jupyter</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Eclipse</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Figma</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Jira</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>Confluence</sub><rt><picture><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby> &emsp; <ruby><sub>WordPress</sub><rt><picture><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/wordpress-icon.svg" width="28" height="28" align="middle" alt=""></picture></rt></ruby>
+
+</details>
 
 ---
 
 ## Experience
 
-◆ &nbsp;**Florida Department of Children's & Families** &nbsp;·&nbsp; Tallahassee, FL
+### <picture><img src="https://bharadwaj.vercel.app/dcf.png" width="36" align="middle" alt=""></picture> Florida Department of Children &amp; Families
 
-**Government Operations Consultant II (Software Engineer)**<br/>
-Full-time &nbsp;·&nbsp; Sep 2026 - Present &nbsp;·&nbsp; On-site
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Government Operations Consultant II</strong><br>
+Sep 2026 – Present<br>
+Builds Python and SQL automation, SSIS workflows, and data systems for child welfare and federal reporting.</p>
 
-<br/>
+### <picture><img src="https://bharadwaj.vercel.app/FSU%201.png" width="36" align="middle" alt=""></picture> Florida State University
 
-◆ &nbsp;**Florida State University** &nbsp;·&nbsp; Tallahassee, FL
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Assistant in Research</strong><br>
+Aug 2026 – Sep 2026</p>
 
-<blockquote>
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Graduate Assistant in Teaching</strong><br>
+Aug 2025 – May 2026</p>
 
-**Assistant in Research (Systems Engineer)**<br/>
-Full-time &nbsp;·&nbsp; Aug 2026 - Sep 2026 &nbsp;·&nbsp; Hybrid
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Software Engineer</strong><br>
+May 2025 – May 2026</p>
 
-**Graduate Assistant in Teaching**<br/>
-Contract &nbsp;·&nbsp; Aug 2025 - May 2026 &nbsp;·&nbsp; On-site
+### <picture><img src="https://bharadwaj.vercel.app/sri.png" width="36" align="middle" alt=""></picture> Sri Bhramara Township Pvt. Ltd.
 
-**Software Engineer**<br/>
-Apprenticeship &nbsp;·&nbsp; May 2025 - May 2026 &nbsp;·&nbsp; Hybrid
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Software Engineer</strong><br>
+Jan 2023 – May 2024</p>
 
-</blockquote>
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Associate Software Engineer</strong><br>
+Jun 2022 – Dec 2022</p>
 
-<br/>
+### <picture><img src="https://bharadwaj.vercel.app/Unical.jpg" width="36" align="middle" alt=""></picture> Unical Systems
 
-◆ &nbsp;**Sri Bhramara Township PVT. LTD.** &nbsp;·&nbsp; Guntur, Andhra Pradesh, India
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Software &amp; DevOps Engineer</strong><br>
+Dec 2023 – Apr 2024</p>
 
-<blockquote>
+### <picture><img src="https://bharadwaj.vercel.app/Oasis.jpg" width="36" align="middle" alt=""></picture> Oasis Infobyte
 
-**Software Engineer**<br/>
-Full-time &nbsp;·&nbsp; Jan 2023 - May 2024 &nbsp;·&nbsp; Hybrid
+<p><picture><source media="(prefers-color-scheme: light)" srcset="assets/experience/timeline-light.svg"><img src="assets/experience/timeline.svg" width="18" height="43" align="left" alt=""></picture> <strong>Software Developer (Java)</strong><br>
+Sep 2022 – Oct 2022</p>
 
-**Associate Software Engineer**<br/>
-Full-time &nbsp;·&nbsp; Jun 2022 - Dec 2022 &nbsp;·&nbsp; Hybrid
+---
 
-</blockquote>
+## Research and publications
 
-<br/>
+### • [Dilated Convolutions and Time-Frequency Attention for Speech Enhancement](https://ieeexplore.ieee.org/abstract/document/10134924)
 
-◆ &nbsp;**Unical Systems** &nbsp;·&nbsp; Hyderabad, Telangana, India
+**IEEE publication · Accession no. 23204218**<br>
+I co-authored a model that recovers speech from noisy audio in real time.
 
-**Software & DevOps Engineer**<br/>
-Internship &nbsp;·&nbsp; Dec 2023 - Apr 2024 &nbsp;·&nbsp; Hybrid
+<details>
+<summary>Research details</summary>
 
-<br/>
+- **Architecture** · A fully convolutional encoder-decoder combines dilated and causal convolutions to gather context without looking ahead.
+- **Attention** · The network learns which time, frequency, and channel information to use when reconstructing speech.
+- **Evaluation** · In Common Voice tests with babble noise from −5 dB to +5 dB, the model scored 91.48 STOI and 2.89 PESQ.
 
-◆ &nbsp;**Oasis Infobyte** &nbsp;·&nbsp; Remote
+</details>
 
-**Software Developer - Java**<br/>
-Internship &nbsp;·&nbsp; Sep 2022 - Oct 2022 &nbsp;·&nbsp; Remote
+### • Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques
+
+**Indian patent application · 202321049964**<br>
+I co-invented a system that uses semantic segmentation to locate and assess anomalies in civil infrastructure images.
+
+<details>
+<summary>Patent application details</summary>
+
+- **Event analysis** · A behavioral engine updates its model of typical activity as events arrive and flags deviations.
+- **Image analysis** · Semantic segmentation locates affected regions, then classifies the anomaly and estimates its severity.
+- **Alert routing** · Rules route alerts to the people responsible for reviewing them.
+
+[Search the application at IP India](https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus)
+
+</details>
 
 ---
 
 ## Education
 
-◆ &nbsp;**Florida State University**<br/>
-Master of Science, Computer Science &nbsp;·&nbsp; Aug 2024 - May 2026 &nbsp;·&nbsp; GPA 3.87 / 4.0
+- **Florida State University**<br>
+  Master of Science in Computer Science<br>
+  Aug 2024 – May 2026 · GPA 3.87 / 4.0
 
-◆ &nbsp;**VIT-AP University**<br/>
-Bachelor of Technology, Computer Science and Engineering &nbsp;·&nbsp; Aug 2020 - May 2024 &nbsp;·&nbsp; GPA 9.38 / 10.0
+- **Vellore Institute of Technology**<br>
+  Bachelor of Technology in Computer Science and Engineering (Data Analytics)<br>
+  Aug 2020 – May 2024 · GPA 9.38 / 10.0
 
 ---
 
-## Certifications
+## Certifications and training
 
-**Microsoft**
-- Microsoft Certified: SQL AI Developer Associate
-- Microsoft Certified: Fabric Data Engineer 
-- Microsoft Certified: Azure Data Fundamentals
-- Microsoft Certified: Azure AI Fundamentals
-- Microsoft Certified: Power Platform Fundamentals
-- Microsoft Certified: Azure Fundamentals
+<details>
+<summary>Microsoft</summary>
 
-**Anthropic**
+- Fabric Data Engineer Associate
+- SQL AI Developer Associate
+- Azure AI Fundamentals
+- Azure Data Fundamentals
+- Azure Fundamentals
+- Power Platform Fundamentals
+
+</details>
+
+<details>
+<summary>Udemy</summary>
+
+- Python Complete Course
+- NLP Course for Beginners
+- SQL Bootcamp with MySQL, PHP & Python
+- JavaScript, PHP & Python Complete Course
+
+</details>
+
+<details>
+<summary>Cisco</summary>
+
+- Cybersecurity Essentials
+- Introduction to Cybersecurity
+- Introduction to IoT
+
+</details>
+
+<details>
+<summary>Google Cloud</summary>
+
+- Associate Cloud Engineer
+- Career Readiness - Associate Cloud Engineer Track
+- Career Practitioner Pathway
+
+</details>
+
+<details>
+<summary>Amazon Web Services</summary>
+
+- AWS Academy Cloud Foundations
+- Introduction to the AWS Cloud
+- Introduction to Artificial Intelligence
+
+</details>
+
+<details>
+<summary>Academic Programs</summary>
+
+- Advanced Data Analytics Tools (VIT University)
+- Data Science and Advanced Analytics (VIT University)
+- Applied Data Science Externship (Google DSC)
+
+</details>
+
+<details>
+<summary>Salesforce</summary>
+
+- Certified Agentforce Specialist
+- Certified AI Associate
+
+</details>
+
+<details>
+<summary>Anthropic</summary>
+
 - AI Fluency: Frameworks & Foundations
 - Claude 101
 
-**Salesforce**
-- Salesforce Certified Agentforce Specialist
-- Salesforce Certified AI Associate
+</details>
 
-**Google Cloud**
-- Google Cloud Certified Associate Cloud Engineer
+<details>
+<summary>MathWorks</summary>
 
-**Amazon Web Services**
-- AWS Academy Cloud Foundations
+- MATLAB Onramp
+- Optimization Onramp
 
-**Cisco**
-- Cybersecurity Essentials
-- Introduction to Cybersecurity
+</details>
 
 ---
 
-## Publications & Patents
+## 🌐 Contact
 
-**Systems and Methods for Detection of Anomalies in Civil Infrastructure Using Context-Aware Semantic Computer Vision Techniques**<br/>
-*Intellectual Property India &nbsp;·&nbsp; Application No: 202321049964*
+Have a question about my work or an idea for a collaboration? I’m happy to hear from you.
 
-- Co-invented a security analytics platform that integrates machine learning and big data processing to detect anomalies across computer network environments and physical civil infrastructure, using a context-aware semantic computer vision pipeline that analyzes visual and event-based data sources simultaneously and in real time
-- The behavioral engine continuously collects incoming event data, categorizes it into dynamic clusters, and maintains an evolving model of normal system behavior, triggering real-time alerts the moment observed patterns deviate beyond defined thresholds without requiring manual review or periodic batch processing
-- A built-in visualization layer renders an animated, interactive view of both the behavioral model and all active anomaly detections, giving security analysts a live picture of system state at any point in time rather than relying on delayed snapshots or static summary reports
-- When applied to visual multimedia streams of civil infrastructure, the system uses semantic segmentation to precisely localize anomalous regions within each scene and then quantifies both the category of anomaly and its severity level to support proportionate, prioritized incident response
-- The core personalization innovation is a rule-defined relevance engine that evaluates every detected anomaly against the consuming user's role, operational context, and permission scope, surfacing only the specific information that is directly actionable for that individual user rather than flooding all users with the same undifferentiated alert stream
+<p><a href="mailto:manne.bharadwaj.1953@gmail.com"><img src="assets/contact/email.svg" width="30" height="30" alt="Email" title="Email"></a> &nbsp; <a href="https://www.linkedin.com/in/bharadwaj-manne-711476249/"><img src="assets/contact/linkedin.svg" width="30" height="30" alt="LinkedIn" title="LinkedIn"></a> &nbsp; <a href="https://github.com/Bharadwaj-1953"><picture><source media="(prefers-color-scheme: light)" srcset="assets/contact/github-light.svg"><img src="assets/contact/github.svg" width="30" height="30" alt="GitHub" title="GitHub"></picture></a> &nbsp; <a href="https://www.instagram.com/bharadwaj_manne"><img src="assets/contact/instagram.svg" width="30" height="30" alt="Instagram" title="Instagram"></a></p>
 
-<br/>
-
-**Dilated Convolutions and Time-Frequency Attention for Speech Enhancement**<br/>
-*IEEE &nbsp;·&nbsp; Accession Number: 23204218*
-
-- Co-authored DTFAAEC (Dilated Time Frequency Attention Autoencoder), a fully convolutional encoder-decoder architecture for real-time speech enhancement that reconstructs clean speech from noisy input without relying on recurrence in the main processing path, keeping inference latency low enough for live streaming applications
-- A Time Frequency Attention mechanism is inserted after every encoder and decoder layer, refining intermediate feature maps in three sequential stages: channel attention first to weight the importance of each feature channel globally, then parallel frequency and time attention to focus the network on the spectral and temporal regions most critical to recovering intelligible clean speech
-- The encoder uses dilated convolutions to simultaneously aggregate context across multiple temporal resolutions, capturing fine-grained phonetic detail and broader speech rhythm in a single forward pass, while causal convolutions constrain the network to process only past and present frames, making it strictly compatible with real-time streaming without look-ahead buffering
-- Two Gated Recurrent Unit layers are positioned in the bottleneck between encoder and decoder to model the sequential temporal dynamics of speech that convolutional operations cannot capture on their own, giving the network explicit memory of how the signal evolves over time and enabling coherent enhancement across longer utterances
-- Trained on 50,000 samples from the Common Voice corpus artificially degraded with NOIZEUS babble and restaurant noise at signal-to-noise ratios spanning -5dB to +5dB, covering the full range of real-world noisy conditions the model would encounter in production deployment
-- Outperformed four published baselines including CRN, AECNN-SM, TCNN, and DDAEC, achieving an average STOI score of 91.48 and average PESQ score of 2.89 under babble noise, demonstrating state-of-the-art results across both objective speech intelligibility and perceptual quality measures
-
----
-
-<div align="center">
-
-<a href="mailto:manne.bharadwaj.1953@gmail.com">
-  <img src="https://cdn.simpleicons.org/gmail/FF3B30" height="40" alt="Gmail">
-</a>
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://github.com/Bharadwaj-1953">
-  <img src="https://cdn.simpleicons.org/github/FFFFFF" height="40" alt="GitHub">
-</a>
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.linkedin.com/in/bharadwaj-manne-711476249/">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" height="40" alt="LinkedIn">
-</a>
-&nbsp;&nbsp;&nbsp;
-
-<a href="https://www.instagram.com/bharadwaj_manne">
-  <img src="https://cdn.simpleicons.org/instagram/E4405F" height="40" alt="Instagram">
-</a>
-
-<br>
-
-<br/>
-
-***💬 &nbsp; Always open to collaborations, opportunities, and interesting conversations.***
-
-<sub>&copy; 2026 Bharadwaj Manne. All rights reserved.</sub>
-
-</div>
+[Visit my portfolio](https://bharadwaj.vercel.app/)
